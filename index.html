@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oleo+Script+Swash+Caps&family=Playfair+Display&family=Roboto:ital,wght@1,300&display=swap" rel="style.css"></head>
+<script src="https://kit.fontawesome.com/e2a7956efc.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+<body>
+
+<header class="header">
+	<div class="container-fluid">
+		<section class="row d-flex align-items-center">
+			<section class="col-auto">
+				<a href="index.html" class="logo"><h1>CAL-TECH</h1></a>
+			</section>
+			<nav class="text_right">
+				<input type = "checkbox" id = "check">
+        <label for="check" class = "burger-button" id = "burger_button"><i class="fa-solid fa-bars"></i></label>
+					<ul class = "nav_sections"> 
+						<li><a href="blogmain.html">Blog</a></li>
+						<li><a href="Design.html">Design</a></li>
+						<li><a href="datavisMain.html">Data-Visualization</a></li>
+						<li><a href="dataArtMain.html">Data-Art</a></li>
+					</ul>
+
+			</nav>
+
+			</div>
+		</section>
+	</div>
+</header>	
+
+<article class="main_menu" id="main_menu">
+	<span class="menu_bg"></span>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="blogmain.html">Blog</a></li>
+		<li><a href="Design.html">Design</a></li>
+		<li><a href="datavisMain.html">Data-Visualization</a></li>
+		<li><a href="dataArtMain.html">Data-Art</a></li>
+
+
+	</ul>
+</article>
+
+<div class="block-row banner" id="section1" data-parallax="scroll" data-image-src ="images/techbg.jpg" >
+	<section slot="container" class = u-video>
+        <h1 class = "p-business-name">CAL-TECH</h1>
+		<p>Tech made easy</p>
+		<video src= "computerad.mp4" autoplay = "autoplay" muted = "true" loop = "true"></video>
+
+	</section>
+</div>
+<div class="block-row about" id="section2"  data-parallax="scroll" data-image-src="images/bgabout.jpg">
+	<section class="container">
+		<section class="row">
+			<section class="col-md-7">
+				<article class="about_box">
+					<h2>INFO ON US</h2>
+					<p class = "about-content e-content">
+                        CAL-TECH is the newest and best-improved business providing everything that would help people to achieve the best out of their technology. we specialise in the Desktop design and can give the best in terms of hardware and software. CAL-TECH is a company that has branched out within the last ten years, so we can provide customers with the latest and greatest equipment. we make sure always to stock up on the newest tech and we even recycle our older generation tech to be eco-friendly and look after the environment. Customers may come to use their older parts for recycling and so can stock up on points by us that can be used for discounts on new components for one’s desktop.
+                          
+				    </p>
+			    </article>
+			</section>
+		</section>
+	</section>
+</div>
+<div class="block-row services" id="section3"  data-parallax="scroll" data-image-src="images/blackbgservice.jpg">
+	<section class="service-container swiper">
+		<h2 class = "service-title">PROUDCTS</h2>
+        <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/cpu.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">GO</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">CPU</h2>
+                    
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/motherboard.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">GO</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Motherboard</h2>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/ram.webp" class="product-thumb" alt="">
+                    <button class="card-btn">GO</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">RAM</h2>
+              
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/graphicscard.webp" class="product-thumb" alt="">
+                    <button class="card-btn">GO</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Graphics Card</h2>
+               
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+<div class="block-row contact" id="section4"  data-parallax="scroll" data-image-src="images/bgcontact.jpg">
+	<section class="container text-center">
+		<h2 class = "contact_heading">YOUR INFORMATION</h2>
+		<article class="container_box">
+			<form>
+				<section class="row">
+					<section slot="col-md-6" class = "p-name">
+						<input type="text" name="" placeholder="First Name">
+					</section>
+					<section slot="col-md-6" class = "p-surname">
+						<input type="text" name="" placeholder="Last Name">
+					</section>
+					<section slot="col-md-6" class = "u-email">
+						<input type="text" name="" placeholder="Email">
+					</section>
+					<section slot="col-md-6" class = "e-phone number">
+						<input type="text" name="" placeholder="Phone">
+					</section>
+					<section slot="col-md-12" class = "">
+						<input type="text" name="" placeholder="Subject">
+					</section>
+					<section slot="col-md-12" class = "e-message" aria-roledescription="lave-message">
+						<textarea placeholder="Message"></textarea>
+					</section>
+					<section slot="col-md-12 text-center">
+						<input type="submit" value="Submit">
+					</section>
+				</section>
+			</form>
+		</article>
+	</section>
+</div>			
+<footer class="footer">
+	&copy; CAL-TECH.com
+</footer>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+<script type="text/javascript" src="js/basic.js"></script>
+<script src="js/draggablePic.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+</body>
+</html>

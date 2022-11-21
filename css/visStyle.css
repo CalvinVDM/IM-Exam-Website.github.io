@@ -1,0 +1,104 @@
+
+
+#chart{
+    display: flex;
+    margin: 2rem 4rem;
+    position: relative; 
+    top: 100px;
+    left: 100px;
+}
+
+#chart1{
+    
+    padding: 2.5rem;
+}
+
+.bar1 {
+    fill:rgb(8, 28, 255);
+}
+
+.label1 {
+    fill: rgb(255, 255, 255);
+}
+
+
+#chart2{
+    
+    padding: 2.5rem;
+}
+
+.bar2 {
+    fill:rgb(8, 28, 255);
+}
+
+.label2 {
+    fill: rgb(255, 255, 255);
+}
+
+
+#chart3{
+    
+    padding: 2.5rem;
+}
+
+.bar3 {
+    fill:rgb(8, 28, 255);
+}
+
+.label3 {
+    fill: rgb(255, 255, 255);
+}
+
+.name{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    margin: 0 4rem;
+    padding-bottom: 2rem;
+    left: 200px;
+}
+
+#data ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#data ul li{
+    margin-bottom: 1rem;
+    margin-left: 25px;
+    padding: 1rem;
+    box-shadow: 0 2px 2px rgb(4, 198, 215);
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+
+#check{
+    display: none;
+}
+
+@media (max-width: 700px){
+    .visuals{
+        font-family: 'Times New Roman', Times, serif;
+        background: url(images/elliott-engelmann-DjlKxYFJlTc-unsplash.jpg) no-repeat;
+        background-size: cover;
+        height: 350vh;
+    }
+
+    #data ul li{
+        margin-bottom: 1rem;
+        margin: 0;
+        padding: 1rem;
+        box-shadow: 0 2px 2px rgb(4, 198, 215);
+        width: 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
+}

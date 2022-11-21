@@ -1,0 +1,281 @@
+
+/* @media screen and (max-width: 800px){
+	.header{
+     padding: 15px 0; 
+    }
+  .header li{
+     font-size: 15px;
+    }
+	.logo{ 
+    width: 100px; display: block; 
+  }
+	.banner{
+     padding-top: 80px; 
+    }
+  .banner h1{
+     font-size: 50px; 
+    }
+  .banner p{
+    
+    font-size: 30px; }	
+	
+  .about_box{
+  	margin-right: 100px;
+    padding-left: -0px;
+    padding-right: 0px;
+
+  }
+
+  .about_box p{
+  	font-size: 15px;
+
+  }
+
+
+  .service_box figure{ 
+    float: none; width: auto; margin:0 0 20px;
+   }
+.text_right{
+  display: none;
+}
+.cards{
+position: absolute;
+	display: grid;
+	
+	grid-template-columns: repeat(2, 300px);
+	grid-gap:  10px;
+	pointer-events: none;
+  padding-left: 230px;
+  margin-top: -90px;
+}
+.service-title{
+  margin-top: -15px;
+}
+  .nav_icon{
+    display: block;
+  
+  }
+  .nav_icon i{
+    float: right;
+    color: white;
+    padding-top: 30px;
+  }
+    
+    
+      .burger-button{
+        display: block;
+
+      } 
+
+    
+    .nav_sections ul{
+      position: fixed;
+      width: 110%;
+      background-color: rgb(194, 192, 192);
+      height: 100%;
+      text-align: center;
+      margin-left: 0px; 
+    left: -120%;
+    transition: all 1s;
+      
+    }
+    #check:checked  ~ ul {
+      left:0;
+  
+    }
+    
+} */
+   
+  
+ 
+
+  @media (max-width: 1000px){
+    .burger-button{
+      display: block;
+      margin-right: 10px;
+      font-size: 45px;
+      padding-top: 13px;
+
+    } 
+
+    .nav_sections li{
+      position: fixed;
+      text-align: center;
+      /* top:50px; */
+      left: -125%;
+      margin-left: 0px; 
+      
+    transition: all 1s;
+      
+    }
+    #check:checked  ~ ul {
+      left:0;
+  
+    }
+
+    .banner h1{
+      margin-left: 50px;
+     
+    }
+
+    .about_box{
+    
+      margin-left: 100px;
+     
+      
+    }
+
+    .cards{
+   
+      margin-top: -200px;
+      grid-template-columns: repeat(3, 280px);
+      margin-left: 30px;
+      grid-gap: 10px;
+      margin-left: 100px;
+
+
+    }
+
+    .container_box{
+      max-width: 1000px;
+      width: 500px;
+      margin: 0 auto;
+      padding: 60px;
+      background:rgb(74, 74, 72);
+      border-radius: 35px;
+    }
+
+    .container_box textarea{
+      width: 100%;
+      height: 290px;
+      resize: none;
+      margin-bottom: 15px;
+      padding:40px 15px;
+      border-radius: 5px;
+      border:1px solid black;
+    }
+
+    .container_box textarea{
+      height: 209px;
+
+    }
+
+    .contact h2{
+      font-size: 40px;
+      margin-left: 150px;
+    }
+
+    .container_box input[type="submit"]{
+    
+      margin-left: 120px;
+    }
+
+  }
+
+
+  /****** 768****/
+  @media (max-width: 768px){
+    .burger-button{
+      display: block;
+      font-size: 40px;
+      padding-top: 15px;
+      
+
+    } 
+    .nav_sections li{
+      position: fixed;
+      text-align: center;
+      top:50px;
+      left: -125%;
+      margin-left: 0px; 
+      
+    transition: all 1s;
+      
+    }
+    #check:checked  ~ ul {
+      left:0;
+  
+    }
+
+    .logo h1{
+      margin-left: -20px;
+    }
+    .banner{
+      font-size: 30px; 
+     }
+     .banner h1{
+      font-size: 70px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .about_box{
+      background:rgba(255, 255, 255, 0);
+      border-radius: 20px;
+      padding: 50px;
+      width: 25%;
+      height: 50%;
+      margin-left: 450px;
+      margin-top: 200px;
+      margin-bottom: 200px;
+      position: relative;
+      
+      
+    }
+    .cards-container{
+      position: relative;
+      width: 800px;
+      margin-top: -200px;
+    }
+
+    .cards{
+      position: absolute;
+      /* position: absolute; */
+      display: grid;
+    
+      grid-template-columns: repeat(3, 160px);
+      grid-gap: 1px;
+      pointer-events: none;
+      padding-top: 150px;
+      margin-left: 20px;
+    }
+ 
+    .service-container{
+      position: relative;
+      width: 60px;
+      height: 800px;
+      margin-right: 450px;
+    
+    }
+
+    .service-title {
+      color: white;
+      padding-bottom: 100px;
+      text-align: center;
+      margin-left: 200px;
+      font-size: 50px;
+      margin-top: -100px;
+    }
+
+    .picture-content p{
+      font-size: 10px;
+    }
+
+    .picture-content{
+      width: 10%;
+      height: 20%;
+    }
+
+  }
+  
+  
+
+
+  
+  
+  
+  
+
+
+
+

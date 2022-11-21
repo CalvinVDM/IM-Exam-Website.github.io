@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: rgb(14, 16, 114);
+    width: 270px;
+   
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    background-color: rgb(163, 4, 4);
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 15px 15px 0 0;
+}
+
+.card p {
+    padding: 20px;
+}
+
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgb(184, 43, 43);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
